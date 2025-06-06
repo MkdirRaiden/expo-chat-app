@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "user": "Alice",
+    "lastMessage": "Hey, how's it going?",
+    "timestamp": "2025-06-03T10:00:00Z"
+  },
+  {
+    "id": "2",
+    "user": "Simran",
+    "lastMessage": "Can we meet tomorrow?",
+    "timestamp": "2025-06-03T09:30:00Z"
+  },
+  {
+    "id": "3",
+    "user": "Kundan",
+    "lastMessage": "Let's hit the Gym?",
+    "timestamp": "2025-06-03T09:30:00Z"
+  },
+  {
+    "id": "4",
+    "user": "Daniel",
+    "lastMessage": "What's up my man?",
+    "timestamp": "2025-06-03T09:30:00Z"
+  }
+]

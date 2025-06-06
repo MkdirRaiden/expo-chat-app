@@ -1,0 +1,58 @@
+{
+  "1": [
+    {
+      "id": "m1",
+      "sender": "Alice",
+      "text": "Hey, how's it going?",
+      "timestamp": "2025-06-03T10:00:00Z"
+    },
+    {
+      "id": "m2",
+      "sender": "You",
+      "text": "Good, thanks!",
+      "timestamp": "2025-06-03T10:01:00Z"
+    }
+  ],
+  "2": [
+    {
+      "id": "m1",
+      "sender": "Simran",
+      "text": "Can we meet tomorrow?",
+      "timestamp": "2025-06-03T09:30:00Z"
+    },
+    {
+      "id": "m2",
+      "sender": "You",
+      "text": "Sure, what time?",
+      "timestamp": "2025-06-03T09:31:00Z"
+    }
+  ],
+  "3": [
+    {
+      "id": "m1",
+      "sender": "Kundan",
+      "text": "Let's hit the Gym?",
+      "timestamp": "2025-06-03T09:30:00Z"
+    },
+    {
+      "id": "m2",
+      "sender": "You",
+      "text": "Sure, what time?",
+      "timestamp": "2025-06-03T09:31:00Z"
+    }
+  ],
+  "4": [
+    {
+      "id": "m1",
+      "sender": "Daniel",
+      "text": "What's up my man?",
+      "timestamp": "2025-06-03T09:30:00Z"
+    },
+    {
+      "id": "m2",
+      "sender": "You",
+      "text": "Not much, you?",
+      "timestamp": "2025-06-03T09:31:00Z"
+    }
+  ]
+}
