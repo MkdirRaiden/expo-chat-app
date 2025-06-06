@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# 🧠 Reli Frontend Assessment – React Native Expo App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a sample mobile app built using **React Native with Expo**. It showcases a thoughtfully designed interface with multiple screens, bottom tab navigation, light/dark theming, and strong adherence to usability principles.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Technologies Used
 
-   ```bash
-   npm install
-   ```
+- **React Native** (v0.79)
+- **Expo SDK 53**
+- **TypeScript**
+- **Tailwind CSS via NativeWind**
+- **React Native Reanimated** (v3)
+- **React Navigation with expo-router**
+- **ESLint & Prettier** for code quality
+- **Safe Area Context** for proper screen layout
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🧩 Design Rationale
 
-In the output, you'll find options to open the app in a
+This app is structured around simplicity and user clarity. The goal was to reflect **Jakob Nielsen's usability heuristics**, focusing especially on:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Visibility of system status** (feedback on button presses and theme toggling)
+- **Consistency and standards** (platform-native gestures, navigation, and styling)
+- **Aesthetic and minimalist design** (minimalist header, consistent spacing, accessible fonts/colors)
+- **User control and freedom** (theme toggle, back navigation)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+The use of Tailwind via NativeWind ensures consistent spacing, sizing, and color themes. The code is modular, typed, and scalable for production.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🧪 How to Run Locally
+
+1. **Clone the repo:**
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. **Install dependencies:**
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. **Start the development server:**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+4. **Run on your device:**
 
-Join our community of developers creating universal apps.
+- Press `w` for web
+- Press `a` for Android
+- Press `i` for iOS (macOS only)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+5. **(Optional) Format code:**
+
+```bash
+npm run format
+```
+
+---
+
+## ✅ Usability Heuristics Covered
+
+| Heuristic                           | Implementation Example                           |
+| ----------------------------------- | ------------------------------------------------ |
+| Visibility of system status         | Status bar + feedback animations                 |
+| Match between system and real world | Tab icons, labels, header affordances            |
+| User control and freedom            | Back navigation, dismissable dropdown menu       |
+| Consistency and standards           | Consistent light/dark themes, native feel        |
+| Aesthetic and minimalist design     | Clean layout, intentional spacing, minimal icons |
+| Error prevention                    | Button feedback, disabled states (where needed)  |
+| Recognition rather than recall      | Iconography, persistent navigation bar           |
+
+---
